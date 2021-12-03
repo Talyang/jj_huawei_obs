@@ -1,10 +1,10 @@
 {
-    "name": "jiujiu/huawei_obs",
+    "name": "flyty/huawei_obs",
     "description": "华为obs的适配版本",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jiujiu\\HuaweiObs\\": "src/"
+            "Flyty\\HuaweiObs\\": "src/"
         }
     },
     "authors": [
@@ -16,5 +16,10 @@
     "require": {
         "guzzlehttp/guzzle": "^7.4",
         "monolog/monolog": "^2.3"
+    },
+    "extra":{
+        "branch-alias":{
+            "dev-master":"1.0.x-dev"
+        }
     }
 }
