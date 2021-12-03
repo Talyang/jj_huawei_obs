@@ -1,0 +1,20 @@
+{
+    "name": "jiujiu/huawei_obs",
+    "description": "华为obs的适配版本",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jiujiu\\HuaweiObs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "talyang",
+            "email": "talyangtf@163.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "monolog/monolog": "^2.3"
+    }
+}
