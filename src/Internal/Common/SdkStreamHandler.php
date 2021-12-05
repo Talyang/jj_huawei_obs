@@ -98,7 +98,7 @@ class SdkStreamHandler
         $reason = isset($parts[2]) ? $parts[2] : null;
         $headers = \GuzzleHttp\headers_from_lines($hdrs);
         list ($stream, $headers) = $this->checkDecode($options, $headers, $stream);
-        $stream = Psr7\stream_for($stream);
+        $stream = Psr7\Utils::streamFor($stream);
         $sink = $stream;
 
         if (strcasecmp('HEAD', $request->getMethod())) {
@@ -142,7 +142,7 @@ class SdkStreamHandler
 
         return is_string($sink)
             ? new Psr7\LazyOpenStream($sink, 'w+')
-            : Psr7\stream_for($sink);
+            : Psr7\Utils::streamFor($sink);
     }
 
     private function checkDecode(array $options, array $headers, $stream)
@@ -153,7 +153,7 @@ class SdkStreamHandler
                 $encoding = $headers[$normalizedKeys['content-encoding']];
                 if ($encoding[0] === 'gzip' || $encoding[0] === 'deflate') {
                     $stream = new Psr7\InflateStream(
-                        Psr7\stream_for($stream)
+                        Psr7\Utils::streamFor($stream)
                     );
                     $headers['x-encoded-content-encoding']
                         = $headers[$normalizedKeys['content-encoding']];

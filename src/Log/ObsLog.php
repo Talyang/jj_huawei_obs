@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Log;
+namespace Flyty\HuaweiObs\Log;
 
 use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\RotatingFileHandler;
