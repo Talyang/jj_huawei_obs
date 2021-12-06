@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal\Common;
+namespace Flyty\HuaweiObs\Internal\Common;
 
 class Model implements \ArrayAccess, \IteratorAggregate, \Countable, ToArrayInterface
 {

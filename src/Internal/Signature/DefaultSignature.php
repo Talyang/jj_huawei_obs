@@ -1,11 +1,11 @@
 <?php
 
-namespace Obs\Internal\Signature;
+namespace Flyty\HuaweiObs\Internal\Signature;
 
 
-use Obs\Internal\Resource\Constants;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\V2Constants;
+use Flyty\HuaweiObs\Internal\Resource\Constants;
+use Flyty\HuaweiObs\Internal\Common\Model;
+use Flyty\HuaweiObs\Internal\Resource\V2Constants;
 
 class DefaultSignature extends AbstractSignature
 {

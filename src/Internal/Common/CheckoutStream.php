@@ -1,9 +1,9 @@
 <?php
-namespace Obs\Internal\Common;
+namespace Flyty\HuaweiObs\Internal\Common;
 
 use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
-use Obs\ObsException;
+use Flyty\HuaweiObs\ObsException;
 
 class CheckoutStream implements StreamInterface {
     use StreamDecoratorTrait;

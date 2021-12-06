@@ -1,16 +1,16 @@
 <?php
 
-namespace Obs\Internal\Signature;
+namespace Flyty\HuaweiObs\Internal\Signature;
 
-use Obs\Log\ObsLog;
-use Obs\Internal\Resource\Constants;
-use Obs\ObsException;
-use Obs\Internal\Common\SchemaFormatter;
+use Flyty\HuaweiObs\Log\ObsLog;
+use Flyty\HuaweiObs\Internal\Resource\Constants;
+use Flyty\HuaweiObs\ObsException;
+use Flyty\HuaweiObs\Internal\Common\SchemaFormatter;
 use GuzzleHttp\Psr7\Stream;
-use Obs\Internal\Common\Model;
+use Flyty\HuaweiObs\Internal\Common\Model;
 use Psr\Http\Message\StreamInterface;
-use Obs\Internal\Common\ObsTransform;
-use Obs\Internal\Common\V2Transform;
+use Flyty\HuaweiObs\Internal\Common\ObsTransform;
+use Flyty\HuaweiObs\Internal\Common\V2Transform;
 
 abstract class AbstractSignature implements SignatureInterface
 {

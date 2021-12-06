@@ -1,15 +1,15 @@
 <?php
 
-namespace Obs\Internal;
+namespace Flyty\HuaweiObs\Internal;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
-use Obs\ObsException;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\Constants;
-use Obs\Log\ObsLog;
+use Flyty\HuaweiObs\ObsException;
+use Flyty\HuaweiObs\Internal\Common\Model;
+use Flyty\HuaweiObs\Internal\Resource\Constants;
+use Flyty\HuaweiObs\Log\ObsLog;
 use Psr\Http\Message\StreamInterface;
-use Obs\Internal\Common\CheckoutStream;
+use Flyty\HuaweiObs\Internal\Common\CheckoutStream;
 
 trait GetResponseTrait
 {

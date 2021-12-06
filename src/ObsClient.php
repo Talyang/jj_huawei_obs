@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Obs;
+namespace Flyty\HuaweiObs;
 
-use Obs\Log\ObsLog;
-use Obs\Internal\Common\SdkCurlFactory;
-use Obs\Internal\Common\SdkStreamHandler;
-use Obs\Internal\Common\Model;
+use Flyty\HuaweiObs\Log\ObsLog;
+use Flyty\HuaweiObs\Internal\Common\SdkCurlFactory;
+use Flyty\HuaweiObs\Internal\Common\SdkStreamHandler;
+use Flyty\HuaweiObs\Internal\Common\Model;
 use Monolog\Logger;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
@@ -14,7 +14,7 @@ use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\Handler\CurlMultiHandler;
 use GuzzleHttp\Handler\Proxy;
 use GuzzleHttp\Promise\Promise;
-use Obs\Internal\Resource\Constants;
+use Flyty\HuaweiObs\Internal\Resource\Constants;
 
 
 define('DEBUG', Logger::DEBUG);

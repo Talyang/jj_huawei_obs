@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal\Common;
+namespace Flyty\HuaweiObs\Internal\Common;
 
 /**
  * An object that can be represented as an array

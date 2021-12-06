@@ -1,10 +1,10 @@
 <?php
 
-namespace Obs;
+namespace Flyty\HuaweiObs;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Obs\Log\ObsLog;
+use Flyty\HuaweiObs\Log\ObsLog;
 
 class ObsException extends \RuntimeException
 {

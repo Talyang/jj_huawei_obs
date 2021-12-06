@@ -1,8 +1,8 @@
 <?php
 
-namespace Obs\Internal\Signature;
+namespace Flyty\HuaweiObs\Internal\Signature;
 
-use Obs\Internal\Common\Model;
+use Flyty\HuaweiObs\Internal\Common\Model;
 
 interface SignatureInterface
 {

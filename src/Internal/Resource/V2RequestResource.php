@@ -1,5 +1,5 @@
 <?php
-namespace Obs\Internal\Resource;
+namespace Flyty\HuaweiObs\Internal\Resource;
 
 class V2RequestResource {
     public static $RESOURCE_ARRAY = [ 

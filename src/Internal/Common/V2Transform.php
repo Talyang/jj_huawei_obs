@@ -1,8 +1,8 @@
 <?php
-namespace Obs\Internal\Common;
+namespace Flyty\HuaweiObs\Internal\Common;
 
-use Obs\ObsClient;
-use Obs\Internal\Resource\V2Constants;
+use Flyty\HuaweiObs\ObsClient;
+use Flyty\HuaweiObs\Internal\Resource\V2Constants;
 
 class V2Transform implements ITransform{
     private static $instance;

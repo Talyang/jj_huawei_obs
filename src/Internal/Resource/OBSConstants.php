@@ -1,5 +1,5 @@
 <?php
-namespace Obs\Internal\Resource;
+namespace Flyty\HuaweiObs\Internal\Resource;
 
 class OBSConstants extends Constants {
     const FLAG = 'OBS';

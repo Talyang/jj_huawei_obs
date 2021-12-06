@@ -1,22 +1,22 @@
 <?php
 
-namespace Obs\Internal;
+namespace Flyty\HuaweiObs\Internal;
 
 use GuzzleHttp\Psr7;
-use Obs\Log\ObsLog;
+use Flyty\HuaweiObs\Log\ObsLog;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\V2Constants;
-use Obs\ObsException;
-use Obs\Internal\Signature\V4Signature;
-use Obs\Internal\Signature\DefaultSignature;
+use Flyty\HuaweiObs\Internal\Common\Model;
+use Flyty\HuaweiObs\Internal\Resource\V2Constants;
+use Flyty\HuaweiObs\ObsException;
+use Flyty\HuaweiObs\Internal\Signature\V4Signature;
+use Flyty\HuaweiObs\Internal\Signature\DefaultSignature;
 use GuzzleHttp\Client;
-use Obs\Internal\Resource\Constants;
+use Flyty\HuaweiObs\Internal\Resource\Constants;
 use Psr\Http\Message\StreamInterface;
-use Obs\Internal\Resource\V2RequestResource;
+use Flyty\HuaweiObs\Internal\Resource\V2RequestResource;
 
 trait SendRequestTrait
 {

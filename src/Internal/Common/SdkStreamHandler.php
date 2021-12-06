@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal\Common;
+namespace Flyty\HuaweiObs\Internal\Common;
 
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;

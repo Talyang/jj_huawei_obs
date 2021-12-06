@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Log;
+namespace Flyty\HuaweiObs\Log;
 
 class ObsConfig
 {

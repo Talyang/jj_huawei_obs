@@ -1,5 +1,5 @@
 <?php
-namespace Obs\Internal\Resource;
+namespace Flyty\HuaweiObs\Internal\Resource;
 
 class V2Constants extends Constants {
     const FLAG = 'AWS';

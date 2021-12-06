@@ -1,7 +1,7 @@
 <?php
-namespace Obs\Internal\Common;
+namespace Flyty\HuaweiObs\Internal\Common;
 
-use Obs\ObsClient;
+use Flyty\HuaweiObs\ObsClient;
 
 class ObsTransform implements ITransform {
     private static $instance;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal\Resource;
+namespace Flyty\HuaweiObs\Internal\Resource;
 
 class Constants {
     const ALLOWED_RESOURCE_PARAMTER_NAMES = [ 
